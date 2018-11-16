@@ -19,6 +19,8 @@ async function Test(FilePath) {
         // Stream the file in the browser
         file.appendTo('#output')
         })
+    }else{
+        window.location = "404.html";
     }
 }
 Test(file);
